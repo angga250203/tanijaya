@@ -28,7 +28,7 @@ export default function Section2() {
          <div className='flex flex-wrap mt-5 '>
             <div className='w-full md:w-1/2 gap-5 '>
               <div className='relative overflow-hidden hidden md:block h-[35vh] w-[96%] rounded-xl'>
-              <Image src="https://images.unsplash.com/photo-1624720114708-0cbd6ee41f4e?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  layout='fill' priority alt='timbangan' className='object-cover z-0 '/>
+              <Image src="https://images.unsplash.com/photo-1624720114708-0cbd6ee41f4e?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  layout='fill' loading="lazy" alt='timbangan' className='object-cover z-0 '/>
               </div>
               <article
               className={cn('lg:h-[35vh] mt-5 p-5 w-full md:w-[96%] rounded-xl', changeColor1 ? 'bg-yellow-500 text-white' : 'bg-white')}>
@@ -50,7 +50,7 @@ export default function Section2() {
             <div className='w-full md:w-1/2'>
               <div className='flex gap-5 mt-5 md:mt-0'>
                 <div className='relative overflow-hidden h-[35vh] hidden md:block w-1/2 rounded-xl'>
-                   <Image src="https://images.unsplash.com/photo-1557844352-761f2565b576?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  layout='fill' priority alt='timbangan' className='object-cover'/>
+                   <Image src="https://images.unsplash.com/photo-1557844352-761f2565b576?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  layout='fill'  loading="lazy" alt='timbangan' className='object-cover'/>
                 
                 </div>
                 <article className={cn('lg:h-[35vh] p-5 w-full md:w-1/2 rounded-xl', changeColor2 ? 'bg-green-500 text-white' : 'bg-white')}>
@@ -82,7 +82,7 @@ export default function Section2() {
               </article>
 
                 <div className='h-[35vh] relative hidden md:block w-1/2 rounded-xl overflow-hidden'>
-                  <Image src="https://plus.unsplash.com/premium_photo-1678344151150-4a42c45453d5?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  layout='fill' priority alt='timbangan' className='object-cover'/>
+                  <Image src="https://plus.unsplash.com/premium_photo-1678344151150-4a42c45453d5?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  layout='fill' loading="lazy" alt='timbangan' className='object-cover'/>
                 </div>
               </div>
               

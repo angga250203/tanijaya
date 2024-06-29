@@ -37,12 +37,12 @@ export default function Section5() {
             initial="initial"
             animate="animate"
             transition={transition}
-            className='text-[1.7rem] md:text-[2rem] font-thin text-white '>"Kami Jemput Hasil Panen Anda, Tanpa Biaya Tambahan!"
+            className='text-[1.7rem] md:text-[2rem] font-light md:font-thin text-white '>"Kami Jemput Hasil Panen Anda, Tanpa Biaya Tambahan!"
             </motion.h1>
             </div>
             <p className='text-gray-100 mt-2'>hubungi tim kami untuk mengatur jadwal penjemputan serta titik penjemputan lewat tombol di bawah ini</p>
 
-            <button onMouseEnter={() => {setIsActive(true)}} onMouseLeave={() => {setIsActive(false)}} className='px-7 mt-6 font-extralight py-5 flex items-center justify-center gap-2 shadow-xl  text-green-500 rounded-full bg-white '>
+            <button onMouseEnter={() => {setIsActive(true)}} onMouseLeave={() => {setIsActive(false)}} className='px-7 mt-6  py-5 flex items-center justify-center gap-2 shadow-xl  text-green-500 rounded-full bg-white '>
           <motion.div variants={anim} animate={isActive ? "open" : "closed"}>
           <IoIosArrowDropright className='text-3xl'/>
           </motion.div>

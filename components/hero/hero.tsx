@@ -44,7 +44,7 @@ export default function Hero() {
                         initial="initial"
                         animate="animate"
                         transition={transition}
-                    className='md:text-[4rem] text-[2.7rem] font-thin'>Pengepul Sayuran</motion.h1>
+                    className='md:text-[4rem] text-[2.7rem] font-extralight  md:font-thin'>Pengepul Sayuran</motion.h1>
                  </div>
                  <div className='overflow-hidden'>
                     <motion.h2
@@ -65,7 +65,7 @@ export default function Hero() {
 
 
      <div className='md:w-3/12 flex justify-center mt-5 w-full md:text-end text-start'>
-     <button onMouseEnter={()=>setIsHover(true)} onMouseLeave={()=>setIsHover(false)} className='border-2 border-black items-center shadow-xl gap-7 rounded-full flex justify-start text-black px-6 py-[20px]'>
+     <button onMouseEnter={()=>setIsHover(true)} onMouseLeave={()=>setIsHover(false)} className='border-[1px] border-black items-center shadow-xl gap-7 rounded-full flex justify-start text-black px-6 py-[20px]'>
         <span className='relative'>Gabung <span className='font-semibold'>Sekarang</span></span>
          <motion.div variants={anim} animate={isHover ? "open" : "closed"}
           className='bg-green-500 text-white flex justify-center items-center w-5 h-5 rounded-full' >
@@ -79,7 +79,13 @@ export default function Hero() {
                 </div>
         </div>
         <div className='h-[50vh] md:h-[60vh] -z-10 relative block mt-16'>
-           <Image src="/hero.jpg" alt='petani' className='object-cover md:rounded-2xl' fill />
+           <Image 
+           src="/hero.jpg" 
+           alt='petani' 
+           className='object-cover md:rounded-2xl' 
+           fill  
+           loading='lazy'
+           />
         </div>
 
        
