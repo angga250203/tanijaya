@@ -44,7 +44,7 @@ export default function Hero() {
                         initial="initial"
                         animate="animate"
                         transition={transition}
-                    className='md:text-[4rem] text-[2.7rem] font-extralight  md:font-thin'>Pengepul Sayuran</motion.h1>
+                    className='md:text-[4rem] text-[2.5rem] font-extralight  md:font-thin'>Pengepul Sayuran</motion.h1>
                  </div>
                  <div className='overflow-hidden'>
                     <motion.h2
@@ -52,7 +52,7 @@ export default function Hero() {
                      initial="initial"
                      animate="animate"
                      transition={{...transition,delay:0.5}}
-                    className='md:text-[4rem] text-[2.7rem]  font-thin'> Tani jaya</motion.h2>
+                    className='md:text-[4rem] text-[2.5rem]  font-thin'> Tani jaya</motion.h2>
                     </div>
                 </div>
                 <div className='md:w-4/12 text-xl w-full mt-3 md:mt-0'>
@@ -65,10 +65,10 @@ export default function Hero() {
 
 
      <div className='md:w-3/12 flex justify-center mt-5 w-full md:text-end text-start'>
-     <button onMouseEnter={()=>setIsHover(true)} onMouseLeave={()=>setIsHover(false)} className='border-[1px] border-black items-center shadow-xl gap-7 rounded-full flex justify-start text-black px-6 py-[20px]'>
+     <button onMouseEnter={()=>setIsHover(true)} onMouseLeave={()=>setIsHover(false)} className='border-[1px] md:border-[2px]  border-green-400 bg-green-500  items-center shadow-xl gap-7 rounded-full flex justify-start text-white px-6 py-[20px]'>
         <span className='relative'>Gabung <span className='font-semibold'>Sekarang</span></span>
          <motion.div variants={anim} animate={isHover ? "open" : "closed"}
-          className='bg-green-500 text-white flex justify-center items-center w-5 h-5 rounded-full' >
+          className='bg-white text-green-500 flex justify-center items-center w-5 h-5 rounded-full' >
             {isHover? ( <FaArrowRight className='rotate-[-30deg] px-[5px] py-[5px]  '/>):
             ( <FaArrowRight className='rotate-[-30deg]  opacity-0 '/>)}
            

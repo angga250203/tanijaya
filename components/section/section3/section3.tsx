@@ -24,8 +24,8 @@ export default function Section3() {
             transition={transition}
             viewport={{ once: true }}
             className='leading-tight'>
-                <h1 className='text-[3.5rem] font-thin'>Kenapa harus</h1>
-                <h2 className='text-[3.5rem] font-thin'>Kami</h2>
+                <h1 className='text-[2.5rem] md:text-[3.5rem] font-thin'>Kenapa harus</h1>
+                <h2 className='text-[2.5rem] md:text-[3.5rem] font-thin'>Kami</h2>
             </motion.div>
             <p className='max-w-xl mt-5 text-gray-500'>Di Tani Jaya, kami berkomitmen untuk menjembatani kesenjangan antara petani lokal dan konsumen yang peduli dengan kesehatan dan menghargai hasil pertanian berkualitas tinggi. </p>
         </header>
@@ -54,7 +54,7 @@ export default function Section3() {
                       <p className='text-gray-500 mt-2'>Di Tani Jaya, kualitas adalah prioritas utama kami. Kami dengan cermat memilih dan memeriksa semua sayuran untuk memastikan mereka memenuhi standar tinggi kami. Pelanggan kami dapat mempercayai bahwa mereka mendapatkan hasil pertanian yang paling segar dan sehat.</p>
                  </div>
              </div>
-                 <div className=' md:px-12'>
+                 <div className='relative -z-10 md:px-12'>
                      <Video/>
                  </div>
             </div>

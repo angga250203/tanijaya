@@ -27,8 +27,7 @@ export default function Navbar() {
     })
 
   return (
-    <motion.div 
-    
+    <motion.div   
     animate={isHidden ? "hidden" : "visible"}
     whileHover="visible"
     onFocusCapture={() => setHidden(false)}
@@ -42,12 +41,9 @@ export default function Navbar() {
         }
     }}
     transition={{duration:0.2}}
-
-
-    
-    className='fixed flex justify-center top-3 w-full '>
+    className='fixed flex justify-center px-3 top-3 w-full '>
  
-            <div className=' flex w-[75rem] rounded-lg justify-between backdrop-blur-xl bg-white/30  px-5 items-center py-2 '>
+            <div className=' flex w-[75rem] rounded-xl justify-between backdrop-blur-xl bg-white/30 px-4  items-center py-2 '>
                 <Image src="/logo.png" alt='logo Tani jaya' width={70} height={70} priority/>
 
                 <div className='hidden md:flex items-center gap-5 '>

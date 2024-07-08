@@ -33,7 +33,7 @@ export default function Section1() {
              whileInView="animate"
              transition={transition}
              viewport={{ once: true }}
-             className='text-[3rem] font-thin '>Tentang Kami</motion.h1>
+             className=' text-[2.5rem] md:text-[3rem] font-thin '>Tentang Kami</motion.h1>
              </div>
         </header>
     <article className=' flex flex-wrap '>

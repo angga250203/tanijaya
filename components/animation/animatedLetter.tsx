@@ -51,7 +51,7 @@ const AnimatedTextCharacter: React.FC<AnimatedTextCharacterProps> = ({ text }) =
       viewport={{ once: true }}
     >
       {letters.map((letter, index) => (
-        <motion.span variants={child} key={index} className="py-1 font-poppins text-[3.5rem] font-thin">
+        <motion.span variants={child} key={index} className="py-1 font-poppins text-[2.5rem] md:text-[3.5rem] font-thin">
           {letter === " " ? "\u00A0" : letter}
         </motion.span>
       ))}

@@ -18,7 +18,7 @@ export default function Section2() {
 
 
   return (
-    <section className='bg-gray-100 min-h-screen -z-20 py-20'>
+    <section className='bg-gray-100 relative min-h-screen -z-20 py-20'>
       <div className='max-w-6xl mx-auto p-5'>
         <header className='pb-5'>
         <AnimatedTextCharacter text="Layanan Kami" />
@@ -27,7 +27,7 @@ export default function Section2() {
          </header>
          <div className='flex flex-wrap mt-5 '>
             <div className='w-full md:w-1/2 gap-5 '>
-              <div className='relative overflow-hidden hidden md:block h-[35vh] w-[96%] rounded-xl'>
+              <div className='relative  overflow-hidden hidden md:block h-[35vh] w-[96%] rounded-xl'>
               <Image src="https://images.unsplash.com/photo-1624720114708-0cbd6ee41f4e?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  layout='fill' loading="lazy" alt='timbangan' className='object-cover z-0 '/>
               </div>
               <article

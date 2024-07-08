@@ -24,7 +24,7 @@ export default function Section5() {
   const [isActive, setIsActive] = useState(false);
 
   return (
-    <div className='px-2'>
+    <div className='px-2 relative -z-10'>
     <div className='max-w-6xl relative mx-auto my-12 flex flex-wrap h-[70vh] md:h-[50vh] overflow-hidden rounded-2xl bg-green-500'>
         <div className='relative w-full md:w-1/2 md:order-first order-last'>
             <Image src="/driver.png" alt='driver' width={2000} height={2000}/>
